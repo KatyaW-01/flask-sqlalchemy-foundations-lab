@@ -5,7 +5,6 @@ metadata = MetaData()
 
 db = SQLAlchemy(metadata=metadata)
 
-# Add models here
 class Earthquake(db.Model):
   __tablename__ = 'earthquakes'
 
